@@ -7,7 +7,7 @@
     <title>MareNostrum</title>
 
     <style>
-        /* VISOR DE IMÁGENES A PANTALLA COMPLETA */
+        
 
         .imagen img {
             cursor: zoom-in;
@@ -71,7 +71,7 @@
             text-shadow: 0 0 15px #00e5ff;
         }
 
-        /* ================================= 1. CONFIGURACIÓN GENERAL ================================= */
+     
         :root {
             --fondo: #030817;
             --azul: #00aaff;
@@ -96,7 +96,7 @@
             overflow-x: hidden;
         }
 
-        /* Fondo con cuadrícula tecnológica */
+    
         body::before {
             content: "";
             position: fixed;
@@ -107,7 +107,7 @@
             z-index: -1;
         }
 
-        /* ================================= 2. BARRA DE NAVEGACIÓN ================================= */
+        
         nav {
             display: flex;
             justify-content: space-between;
@@ -137,7 +137,7 @@
             text-shadow: 0 0 10px var(--azul);
         }
 
-        /* ================================= 3. PORTADA PRINCIPAL ================================= */
+      
         .hero {
             min-height: 90vh;
             display: flex;
@@ -190,7 +190,7 @@
             box-shadow: 0 0 30px var(--azul);
         }
 
-        /* ================================= 4. SECCIONES DEL TRABAJO ================================= */
+        
         section.contenido {
             padding: 100px 10%;
         }
@@ -213,7 +213,7 @@
             font-size: 17px;
         }
 
-        /* ================================= 5. IMÁGENES DE CANVA ================================= */
+       
         .galeria {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -252,7 +252,7 @@
             font-size: 14px;
         }
 
-        /* ================================= 6. BLOQUES DE INFORMACIÓN ================================= */
+      
         .tarjetas {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -276,7 +276,7 @@
             line-height: 1.7;
         }
 
-        /* ================================= 7. CONCLUSIÓN ================================= */
+     
         .final {
             text-align: center;
             padding: 120px 20px;
@@ -290,7 +290,7 @@
             line-height: 1.8;
         }
 
-        /* ================================= 8. PIE DE PÁGINA ================================= */
+       
         footer {
             text-align: center;
             padding: 30px;
@@ -318,13 +318,13 @@
             overflow-wrap: anywhere;
         }
 
-        /* Evitar que el contenido sobresalga de la caja */
+        
         .imagen {
             min-width: 0;
             overflow: hidden;
         }
 
-        /* ================================= 9. ADAPTACIÓN A MÓVILES ================================= */
+       
         @media (max-width: 650px) {
             nav {
                 flex-direction: column;
@@ -344,19 +344,19 @@
             }
         }
 
-        /* Título centrado */
+       
         .final {
             text-align: center;
         }
 
-        /* Párrafos alineados a la izquierda */
+        
         .texto-conclusion {
             max-width: 750px;
             margin: 30px auto 0;
             text-align: left;
         }
 
-        /* Separación entre párrafos */
+        
         .texto-conclusion p {
             margin-bottom: 20px;
             line-height: 1.8;
@@ -367,22 +367,22 @@
 </head>
 
 
-<body> <!-- BARRA SUPERIOR -->
+<body> 
     <nav>
         <div class="logo">MARENOSTRUM</div>
         <div> <a href="#introduccion">Proyecto</a> <a href="#galeria">Galería</a> <a href="#conclusion">Conclusión</a>
         </div>
-    </nav> <!-- PORTADA -->
+    </nav> 
     <header class="hero">
         <p class="etiqueta"> SUPERCOMPUTACIÓN / CIENCIA / FUTURO </p>
         <h1> MARE <span>NOSTRUM</span> </h1>
-        <p class="subtitulo"> <!-- ESCRIBE AQUÍ TU FRASE DE PRESENTACIÓN --> Una nueva dimensión de la computación, la
+        <p class="subtitulo"> Una nueva dimensión de la computación, la
             investigación científica y la tecnología. </p> <a href="#introduccion" class="boton"> DESCUBRIR EL PROYECTO
             → </a>
-    </header> <!-- SECCIÓN 1: INTRODUCCIÓN -->
+    </header> 
     <section class="contenido" id="introduccion">
         <p class="numero">01 / INTRODUCCIÓN</p>
-        <h2> <!-- CAMBIA ESTE TÍTULO --> ¿Qué es MareNostrum? </h2>
+        <h2>  ¿Qué es MareNostrum? </h2>
 
         <p class="texto">
             MareNostrum es uno de los supercomputadores más destacados de Europa, ubicado en el Barcelona Supercomputing
@@ -412,21 +412,21 @@
             límites de la ciencia, impulsar la innovación y construir el futuro de la investigación.
         </p>
 
-    </section> <!-- SECCIÓN 2: GALERÍA DE CANVA -->
+    </section> 
     <section class="contenido" id="galeria">
         <p class="numero">02 / PRESENTACIÓN VISUAL</p>
         <h2>El proyecto en imágenes.</h2>
-        <p class="texto"> <!-- DESCRIBE TU GALERÍA SI LO NECESITAS --> Diapositivas informativas sobre MareNostrum. </p>
-        <div class="galeria"> <!-- COPIA ESTE BLOQUE PARA AÑADIR MÁS IMÁGENES -->
-            <article class="imagen"> <!-- CAMBIA LA RUTA POR TU ARCHIVO --> <img src="img/1.png" alt="Portada">
+        <p class="texto"> Diapositivas informativas sobre MareNostrum. </p>
+        <div class="galeria"> 
+            <article class="imagen">  <img src="img/1.png" alt="Portada">
                 <h3>SUPERCOMPUTADOR MARE NOSTRUM</h3>
                 <p> Uno de los supercomputadores más importantes de España. </p>
-            </article> <!-- SEGUNDA IMAGEN -->
+            </article> 
             <article class="imagen"> <img src="img/2.png" alt="índice">
                 <h3>índice</h3>
                 <p> Vision 1 - Historia y creación.<br> Vision 2 - Características técnicas <br> Vision 3 - Importancia
                     de su creación. </p>
-            </article> <!-- TERCERA IMAGEN -->
+            </article> 
 
             <article class="imagen">
                 <img src="img/3.png" alt="Historia y creación">
@@ -469,7 +469,7 @@
             </article>
 
         </div>
-    </section> <!-- SECCIÓN 3: INFORMACIÓN ADICIONAL -->
+    </section> 
     <section class="contenido">
         <p class="numero">03 / DATOS CLAVE</p>
         <h2>La tecnología detrás del proyecto.</h2>
@@ -494,7 +494,7 @@
             </article>
 
         </div>
-    </section> <!-- SECCIÓN 4: CONCLUSIÓN -->
+    </section> 
     <section class="final" id="conclusion">
         <p class="numero">04 / CONCLUSIÓN</p>
         <h2>El futuro empieza con el conocimiento.</h2>
@@ -508,7 +508,7 @@
             <p> Además, impulsa la innovación tecnológica y sitúa a España entre los países que contribuyen al
                 desarrollo de la supercomputación en Europa. </p>
         </div>
-    </section> <!-- PIE DE PÁGINA -->
+    </section> 
     <footer> MARE NOSTRUM · PROYECTO TECNOLÓGICO NOEMI SISTEMAS INFORMATICOS · 2026 </footer>
 
     <!-- VISOR DE IMÁGENES -->
@@ -545,23 +545,23 @@
 
             });
 
-        // Cerrar el visor al hacer clic en el fondo
+        
         visor.addEventListener("click", function () {
             cerrarVisor();
         });
 
-        // Cerrar también al pulsar la X
+        
         botonCerrar.addEventListener("click", function (evento) {
             evento.stopPropagation();
             cerrarVisor();
         });
 
-        // Cerrar al hacer clic en la imagen ampliada
+        
         imagenAmpliada.addEventListener("click", function () {
             cerrarVisor();
         });
 
-        // Cerrar con la tecla Escape
+        
         document.addEventListener("keydown", function (evento) {
             if (evento.key === "Escape") {
                 cerrarVisor();
